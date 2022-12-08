@@ -1,0 +1,43 @@
+.custom-modal {
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 0.5rem;
+    // border-bottom: 1px solid #804bdf38;
+    color: $purpleDF;
+    margin-bottom: 1rem;
+
+    p {
+      font-weight: $semibold;
+      font-size: 20px;
+    }
+
+    .close-icon {
+      cursor: pointer;
+      transition: all .5s;
+      background: transparent;
+      border-radius: 50%;
+      width: 30px;
+      height: 30px;
+      padding: 2px;
+
+      &:hover {
+        background: rgb(135 93 211 / 15%);
+        transform: rotate(90deg);
+        transition: all .5s;
+      }
+    }
+  }
+
+  &__body {
+    margin-top: 0.5rem;
+
+  }
+
+  &__footer {
+    display: flex;
+    justify-content: flex-end;
+  }
+}

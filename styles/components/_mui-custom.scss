@@ -1,0 +1,97 @@
+.MuiOutlinedInput-root {
+  border-radius: 8px !important;
+}
+
+.MuiFormLabel-root.Mui-focused {
+  color: $purpleDF !important;
+}
+
+.MuiFormLabel-root.Mui-error {
+  color: #f44336 !important;
+}
+
+.MuiInput-underline.Mui-error:after {
+  border-bottom-color: #f44336 !important;
+}
+
+.MuiInput-underline:after {
+  border-bottom-color: $purpleDF !important;
+}
+
+.MuiOutlinedInput-notchedOutline {
+  border-color: $purpleDF !important;
+}
+
+.MuiOutlinedInput-root.Mui-error .MuiOutlinedInput-notchedOutline {
+  border-color: #f44336 !important;
+}
+
+.tss-9omlvb-MUIDataTableToolbarSelect-root {
+  height: 64px !important;
+  padding: 0 !important;
+
+  h6 {
+    font-size: 20px;
+    font-weight: $semibold;
+  }
+
+  .css-i4bv87-MuiSvgIcon-root {
+    font-size: 26px;
+  }
+}
+
+.layout-page-content {
+  padding: 1rem 1.5rem !important;
+}
+
+.tss-1cdcmys-MUIDataTable-responsiveBase {
+  overflow: auto;
+
+  &::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: hsl(0deg 0% 100%);
+    border-radius: 4px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: $purpleDF;
+    border-radius: 4px;
+  }
+}
+
+
+.MuiFormHelperText-marginDense {
+  margin-top: 0px !important;
+}
+
+.MuiFormHelperText-root {
+  margin-top: 0px !important;
+}
+
+.css-1ppawuk-MuiCardHeader-root .MuiCardHeader-title {
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  letter-spacing: 0.15px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+
+.css-8dbs6x-MuiCardContent-root:last-of-type {
+  padding-bottom: 0 !important;
+}
+
+.css-dby258-MuiCardHeader-action {
+  margin-bottom: 0px !important;
+}
+
+.css-1ssile9-MuiCardHeader-avatar {
+  margin-right: 0 !important;
+}
+
+.css-kb4kox-MuiButtonBase-root-MuiListItemButton-root {
+  padding-left: 30px !important;
+}

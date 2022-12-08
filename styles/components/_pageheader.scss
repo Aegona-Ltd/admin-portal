@@ -1,0 +1,20 @@
+.page-header {
+  width: 100%;
+  background: $whiteFF;
+  padding: 12px 20px;
+  border-radius: 16px;
+  margin-bottom: 16px;
+  box-shadow: 0 1.6rem 3rem rgb(0 0 0 / 10%);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__title {
+    font-size: 24px;
+    font-weight: $semibold;
+    color: $purpleDF;
+    border-left: 4px solid $purpleDF;
+    padding-left: 0.5rem;
+  }
+}
